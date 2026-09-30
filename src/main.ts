@@ -3,8 +3,6 @@
  * Simple starter template - customize to your heart's content!
  */
 
-console.log("🎮 CMPM 121 - Starting...");
-
 // Simple counter for demonstration
 let counter: number = 0;
 
