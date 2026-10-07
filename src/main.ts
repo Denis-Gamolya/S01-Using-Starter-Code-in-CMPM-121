@@ -18,7 +18,8 @@ const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
-  counter++;
+  counter = counter * 2;
   counterElement.textContent = counter.toString();
   console.log("I have these thingies:", button, counterElement, counter);
+  //end of code
 });
